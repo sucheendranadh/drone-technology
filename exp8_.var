@@ -1,0 +1,50 @@
+CONS00 instance 1 output Data_Path=out@constant
+CONS00 instance 1 constant value - Linked variable Is_Linked_Variable=1 Data_Path=k0GEN@constant
+EB3N01 instance 1 duplicate of potential at port 1 [V] Data_Path=V3@3_ports_electrical_node
+EBVS01 instance 1 duplicate of current at port 2 [A] Data_Path=I1@controlled_voltagesource
+EMDSEDC01 instance 1 current at port 1 [A] Data_Path=I1@emd_DirectCurrentMachineSepEx
+EBVS01 instance 1 potential at port 2 [V] Data_Path=V2@controlled_voltagesource
+UD00 instance 1 user defined duty cycle output Data_Path=output@piecewiselinear
+EBVS01 instance 1 output voltage [V] Data_Path=U@controlled_voltagesource
+EBVS01 instance 1 output current [A] Data_Path=I@controlled_voltagesource
+EBZV01 instance 1 zero volt voltage [V] Data_Path=V1@potential_reference
+EB3N01 instance 1 current at port 1 [A] Data_Path=I1@3_ports_electrical_node
+HIDDEN
+EB3N01 instance 1 duplicate of potential at port 1 [V] Data_Path=V2@3_ports_electrical_node
+EBZV01 instance 2 zero volt voltage [V] Data_Path=V1@potential_reference_1
+EB3N01 instance 2 current at port 1 [A] Data_Path=I1@3_ports_electrical_node_1
+EMDSEDC01 instance 1 current at port 5 [A] Data_Path=I5@emd_DirectCurrentMachineSepEx
+EB3N01 instance 2 duplicate of potential at port 1 [V] Data_Path=V2@3_ports_electrical_node_1
+EBVS01 instance 2 duplicate of current at port 2 [A] Data_Path=I1@controlled_voltagesource_1
+EB3N01 instance 2 duplicate of potential at port 1 [V] Data_Path=V3@3_ports_electrical_node_1
+EMDSEDC01 instance 1 heat flow rate at port 6 [W] Data_Path=dh@emd_DirectCurrentMachineSepEx
+THTS1 instance 1 temperature at port 1 [degC] Data_Path=t1@th_temperature_source
+MECRL0 instance 1 sign reversed duplicate of shaft speed at port 2 [rev/min] Data_Path=wdup@rotaryload2ports
+EMDSEDC01 instance 1 torque at port 3 [Nm] Data_Path=torqrot@emd_DirectCurrentMachineSepEx
+EBVS01 instance 2 potential at port 2 [V] Data_Path=V2@controlled_voltagesource_1
+EMDSEDC01 instance 1 current at port 4 [A] Data_Path=I4@emd_DirectCurrentMachineSepEx
+W000 instance 1 angular speed (always zero) [rev/min] Data_Path=wzero@zeroomegasource
+W000 instance 1 fixed angle [degree] Data_Path=theta@zeroomegasource
+EMDSEDC01 instance 1 duplicate of torque at port 3 [Nm] Data_Path=torqstat@emd_DirectCurrentMachineSepEx
+EMDSEDC01 instance 1 armature winding input voltage [V] Data_Path=Ua@emd_DirectCurrentMachineSepEx
+EMDSEDC01 instance 1 armature winding input current [A] Data_Path=Ia@emd_DirectCurrentMachineSepEx
+EMDSEDC01 instance 1 field winding input voltage [V] Data_Path=Ufl@emd_DirectCurrentMachineSepEx
+EMDSEDC01 instance 1 field winding input current [A] Data_Path=Ifl@emd_DirectCurrentMachineSepEx
+EMDSEDC01 instance 1 rotor relative speed [rev/min] Data_Path=wdif@emd_DirectCurrentMachineSepEx
+EMDSEDC01 instance 1 electromagnetic torque [Nm] Data_Path=Tem@emd_DirectCurrentMachineSepEx
+EMDSEDC01 instance 1 electromotive force [V] Data_Path=bemf@emd_DirectCurrentMachineSepEx
+EMDSEDC01 instance 1 armature winding resistance [Ohm] Data_Path=Ra@emd_DirectCurrentMachineSepEx
+EMDSEDC01 instance 1 field winding resistance [Ohm] Data_Path=Rf@emd_DirectCurrentMachineSepEx
+EMDSEDC01 instance 1 electromotive force and torque coefficient [V*s/rad] Data_Path=Kt@emd_DirectCurrentMachineSepEx
+HIDDEN
+HIDDEN
+CONS00 instance 2 output Data_Path=out@constant_1
+MECRL0 instance 1 shaft speed at port 2 [rev/min] Data_Path=w@rotaryload2ports
+TORQC instance 1 torque output [Nm] Data_Path=torque@torquecon
+EBVS01 instance 2 output voltage [V] Data_Path=U@controlled_voltagesource_1
+EBVS01 instance 2 output current [A] Data_Path=I@controlled_voltagesource_1
+CONS00 instance 2 constant value - Linked variable Is_Linked_Variable=1 Data_Path=k0GEN@constant_1
+MECRL0 instance 1 rotary acceleration [rad/s/s] Data_Path=accel@rotaryload2ports
+MECRL0 instance 1 viscous friction torque [Nm] Data_Path=Tvisc@rotaryload2ports
+HIDDEN
+HIDDEN

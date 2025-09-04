@@ -1,0 +1,54 @@
+CONS00 instance 1 constant value [null] Is_Delta=0 Param_Id=1 Recompile_Flag=0 Linked_Variable_Path=k0GEN@constant Data_Path=k@constant
+CONS00 instance 1 constant value - Linked variable [null] Param_Id=2 Recompile_Flag=0 Is_Linked_Variable=1 Data_Path=k0GEN@constant
+THTS1 instance 1 temperature at port 1 [degC] Param_Id=9 Recompile_Flag=0 Data_Path=t1@th_temperature_source
+EMDSEDC01 instance 1 reference temperature [degC] Is_Delta=0 Param_Id=42 Recompile_Flag=0 Data_Path=T0@emd_DirectCurrentMachineSepEx
+EMDSEDC01 instance 1 armature winding resistance at reference temperature [Ohm] Is_Delta=0 Param_Id=43 Recompile_Flag=0 Data_Path=Ra0@emd_DirectCurrentMachineSepEx
+EMDSEDC01 instance 1 corrective coefficient on armature winding resistance [1/K] Is_Delta=0 Param_Id=44 Recompile_Flag=0 Data_Path=alphaRa@emd_DirectCurrentMachineSepEx
+EMDSEDC01 instance 1 armature winding inductance [H] Is_Delta=0 Param_Id=45 Recompile_Flag=0 Data_Path=La@emd_DirectCurrentMachineSepEx
+EMDSEDC01 instance 1 field winding resistance at reference temperature [Ohm] Is_Delta=0 Param_Id=46 Recompile_Flag=0 Data_Path=Rf0@emd_DirectCurrentMachineSepEx
+EMDSEDC01 instance 1 corrective coefficient on field winding resistance [1/K] Is_Delta=0 Param_Id=47 Recompile_Flag=0 Data_Path=alphaRf@emd_DirectCurrentMachineSepEx
+EMDSEDC01 instance 1 field winding inductance [H] Is_Delta=0 Param_Id=48 Recompile_Flag=0 Data_Path=Lf@emd_DirectCurrentMachineSepEx
+EMDSEDC01 instance 1 electromotive force and torque reduced constant at reference temperature [V*s/A/rad] Is_Delta=0 Param_Id=49 Recompile_Flag=0 Data_Path=Krt0@emd_DirectCurrentMachineSepEx
+EMDSEDC01 instance 1 corrective coefficient on electromotive force and torque constant [1/K] Is_Delta=0 Param_Id=50 Recompile_Flag=0 Data_Path=alphaKt@emd_DirectCurrentMachineSepEx
+EMDSEDC01 instance 1 armature winding input current [A] Param_Id=52 Recompile_Flag=0 Is_Linked_Variable=0 Data_Path=Ia@emd_DirectCurrentMachineSepEx
+EMDSEDC01 instance 1 field winding input current [A] Param_Id=54 Recompile_Flag=0 Is_Linked_Variable=0 Data_Path=Ifl@emd_DirectCurrentMachineSepEx
+UD00 instance 1 time at which duty cycle starts [s] Is_Delta=0 Param_Id=116 Recompile_Flag=0 Data_Path=tstart@piecewiselinear
+UD00 instance 1 output at start of stage 1 [null] Is_Delta=0 Param_Id=117 Recompile_Flag=0 Data_Path=start1@piecewiselinear
+UD00 instance 1 output at end of stage 1 [null] Is_Delta=0 Param_Id=118 Recompile_Flag=0 Data_Path=end1@piecewiselinear
+UD00 instance 1 duration of stage 1 [s] Is_Delta=0 Param_Id=119 Recompile_Flag=0 Data_Path=t1@piecewiselinear
+UD00 instance 1 output at start of stage 2 [null] Is_Delta=0 Param_Id=120 Recompile_Flag=0 Data_Path=start2@piecewiselinear
+UD00 instance 1 output at end of stage 2 [null] Is_Delta=0 Param_Id=121 Recompile_Flag=0 Data_Path=end2@piecewiselinear
+UD00 instance 1 duration of stage 2 [s] Is_Delta=0 Param_Id=122 Recompile_Flag=0 Data_Path=t2@piecewiselinear
+UD00 instance 1 output at start of stage 3 [null] Is_Delta=0 Param_Id=123 Recompile_Flag=0 Data_Path=start3@piecewiselinear
+UD00 instance 1 output at end of stage 3 [null] Is_Delta=0 Param_Id=124 Recompile_Flag=0 Data_Path=end3@piecewiselinear
+UD00 instance 1 duration of stage 3 [s] Is_Delta=0 Param_Id=125 Recompile_Flag=0 Data_Path=t3@piecewiselinear
+UD00 instance 1 output at start of stage 4 [null] Is_Delta=0 Param_Id=126 Recompile_Flag=0 Data_Path=start4@piecewiselinear
+UD00 instance 1 output at end of stage 4 [null] Is_Delta=0 Param_Id=127 Recompile_Flag=0 Data_Path=end4@piecewiselinear
+UD00 instance 1 duration of stage 4 [s] Is_Delta=0 Param_Id=128 Recompile_Flag=0 Data_Path=t4@piecewiselinear
+UD00 instance 1 output at start of stage 5 [null] Is_Delta=0 Param_Id=129 Recompile_Flag=0 Data_Path=start5@piecewiselinear
+UD00 instance 1 output at end of stage 5 [null] Is_Delta=0 Param_Id=130 Recompile_Flag=0 Data_Path=end5@piecewiselinear
+UD00 instance 1 duration of stage 5 [s] Is_Delta=0 Param_Id=131 Recompile_Flag=0 Data_Path=t5@piecewiselinear
+UD00 instance 1 output at start of stage 6 [null] Is_Delta=0 Param_Id=132 Recompile_Flag=0 Data_Path=start6@piecewiselinear
+UD00 instance 1 output at end of stage 6 [null] Is_Delta=0 Param_Id=133 Recompile_Flag=0 Data_Path=end6@piecewiselinear
+UD00 instance 1 duration of stage 6 [s] Is_Delta=0 Param_Id=134 Recompile_Flag=0 Data_Path=t6@piecewiselinear
+UD00 instance 1 output at start of stage 7 [null] Is_Delta=0 Param_Id=135 Recompile_Flag=0 Data_Path=start7@piecewiselinear
+UD00 instance 1 output at end of stage 7 [null] Is_Delta=0 Param_Id=136 Recompile_Flag=0 Data_Path=end7@piecewiselinear
+UD00 instance 1 duration of stage 7 [s] Is_Delta=0 Param_Id=137 Recompile_Flag=0 Data_Path=t7@piecewiselinear
+UD00 instance 1 output at start of stage 8 [null] Is_Delta=0 Param_Id=138 Recompile_Flag=0 Data_Path=start8@piecewiselinear
+UD00 instance 1 output at end of stage 8 [null] Is_Delta=0 Param_Id=139 Recompile_Flag=0 Data_Path=end8@piecewiselinear
+UD00 instance 1 duration of stage 8 [s] Is_Delta=0 Param_Id=140 Recompile_Flag=0 Data_Path=t8@piecewiselinear
+UD00 instance 1 number of stages Param_Id=141 Recompile_Flag=0 Data_Path=nstages@piecewiselinear
+UD00 instance 1 cyclic Param_Id=142 Recompile_Flag=0 Data_Path=iscyclic@piecewiselinear
+EBZV01 instance 1 zero volt voltage [V] Param_Id=20 Recompile_Flag=0 Data_Path=V1@potential_reference
+EBZV01 instance 2 zero volt voltage [V] Param_Id=21 Recompile_Flag=0 Data_Path=V1@potential_reference_1
+W000 instance 1 angular speed (always zero) [rev/min] Param_Id=145 Recompile_Flag=0 Data_Path=wzero@zeroomegasource
+W000 instance 1 fixed angle [degree] Param_Id=146 Recompile_Flag=0 Data_Path=theta@zeroomegasource
+CONS00 instance 2 constant value [null] Is_Delta=0 Param_Id=5 Recompile_Flag=0 Linked_Variable_Path=k0GEN@constant_1 Data_Path=k@constant_1
+CONS00 instance 2 constant value - Linked variable [null] Param_Id=6 Recompile_Flag=0 Is_Linked_Variable=1 Data_Path=k0GEN@constant_1
+MECRL0 instance 1 moment of inertia [kgm**2] Is_Delta=0 Param_Id=83 Recompile_Flag=0 Data_Path=J@rotaryload2ports
+MECRL0 instance 1 coefficient of viscous friction [Nm/(rev/min)] Is_Delta=0 Param_Id=84 Recompile_Flag=0 Data_Path=vis@rotaryload2ports
+MECRL0 instance 1 Coulomb friction torque [Nm] Is_Delta=0 Param_Id=85 Recompile_Flag=0 Data_Path=coul@rotaryload2ports
+MECRL0 instance 1 stiction torque [Nm] Is_Delta=0 Param_Id=86 Recompile_Flag=0 Data_Path=stict@rotaryload2ports
+MECRL0 instance 1 coefficient of windage [Nm/(rev/min)**2] Is_Delta=0 Param_Id=87 Recompile_Flag=0 Data_Path=wind@rotaryload2ports
+MECRL0 instance 1 use friction Param_Id=88 Recompile_Flag=0 Data_Path=friction@rotaryload2ports
+MECRL0 instance 1 shaft speed at port 2 [rev/min] Param_Id=99 Recompile_Flag=0 Data_Path=w@rotaryload2ports

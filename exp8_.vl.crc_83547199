@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VL DOC_VERSION="1" VersionId="20241.." checksum="83547199">
+ <VARS_LIST>
+  <VAR CIRCUIT_SCOPE_ID="3" Data_Path="out@constant" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="CONS00" TITLE="output" UNITS="null" VARNUM="1">
+   <TIE_VAR CIRCUIT_SCOPE_ID="35" Data_Path="S3@controlled_voltagesource_1" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="2" Submodel_Name="EBVS01" TITLE="input voltage signal" UNITS="V" VARNUM="1" VAR_DIM="1"/>
+  </VAR>
+  <VAR CIRCUIT_SCOPE_ID="2" Data_Path="k0GEN@constant" IS_DELTA="0" IS_LINKED_VARIABLE="1" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="CONS00" TITLE="constant value - Linked variable" UNITS="null" VARNUM="2" VAR_HASSTART_VALUE="1"/>
+  <VAR CIRCUIT_SCOPE_ID="114" Data_Path="V3@3_ports_electrical_node" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EB3N01" TITLE="duplicate of potential at port 1" UNITS="V" VARNUM="3">
+   <TIE_VAR CIRCUIT_SCOPE_ID="106" Data_Path="V1@controlled_voltagesource" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EBVS01" TITLE="potential at port 1" UNITS="V" VARNUM="3" VAR_DIM="1"/>
+  </VAR>
+  <VAR CIRCUIT_SCOPE_ID="105" Data_Path="I1@controlled_voltagesource" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EBVS01" TITLE="duplicate of current at port 2" UNITS="A" VARNUM="4">
+   <TIE_VAR CIRCUIT_SCOPE_ID="115" Data_Path="I3@3_ports_electrical_node" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EB3N01" TITLE="current at port 3" UNITS="A" VARNUM="4" VAR_DIM="1"/>
+  </VAR>
+  <VAR CIRCUIT_SCOPE_ID="67" Data_Path="I1@emd_DirectCurrentMachineSepEx" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EMDSEDC01" TITLE="current at port 1" UNITS="A" VARNUM="5">
+   <TIE_VAR CIRCUIT_SCOPE_ID="108" Data_Path="I2@controlled_voltagesource" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EBVS01" TITLE="current at port 2" UNITS="A" VARNUM="5" VAR_DIM="1"/>
+  </VAR>
+  <VAR CIRCUIT_SCOPE_ID="107" Data_Path="V2@controlled_voltagesource" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EBVS01" TITLE="potential at port 2" UNITS="V" VARNUM="6">
+   <TIE_VAR CIRCUIT_SCOPE_ID="68" Data_Path="V1@emd_DirectCurrentMachineSepEx" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EMDSEDC01" TITLE="potential at port 1" UNITS="V" VARNUM="6" VAR_DIM="1"/>
+  </VAR>
+  <VAR CIRCUIT_SCOPE_ID="143" Data_Path="output@piecewiselinear" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="UD00" TITLE="user defined duty cycle output" UNITS="null" VARNUM="7">
+   <TIE_VAR CIRCUIT_SCOPE_ID="109" Data_Path="S3@controlled_voltagesource" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EBVS01" TITLE="input voltage signal" UNITS="V" VARNUM="7" VAR_DIM="1"/>
+  </VAR>
+  <VAR CIRCUIT_SCOPE_ID="103" Data_Path="U@controlled_voltagesource" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EBVS01" TITLE="output voltage" UNITS="V" VARNUM="8"/>
+  <VAR CIRCUIT_SCOPE_ID="104" Data_Path="I@controlled_voltagesource" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EBVS01" TITLE="output current" UNITS="A" VARNUM="9"/>
+  <VAR CIRCUIT_SCOPE_ID="20" Data_Path="V1@potential_reference" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EBZV01" TITLE="zero volt voltage" UNITS="V" VARNUM="10" VAR_HASSTART_VALUE="1">
+   <TIE_VAR CIRCUIT_SCOPE_ID="111" Data_Path="V1@3_ports_electrical_node" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EB3N01" TITLE="potential at port 1" UNITS="V" VARNUM="10" VAR_DIM="1"/>
+  </VAR>
+  <VAR CIRCUIT_SCOPE_ID="110" Data_Path="I1@3_ports_electrical_node" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EB3N01" TITLE="current at port 1" UNITS="A" VARNUM="11"/>
+  <VAR CIRCUIT_SCOPE_ID="69" HIDDEN="1" SAVE_VALUE="1">
+   <TIE_VAR CIRCUIT_SCOPE_ID="113" Data_Path="I2@3_ports_electrical_node" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EB3N01" TITLE="current at port 2" UNITS="A" VARNUM="12" VAR_DIM="1"/>
+  </VAR>
+  <VAR CIRCUIT_SCOPE_ID="112" Data_Path="V2@3_ports_electrical_node" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EB3N01" TITLE="duplicate of potential at port 1" UNITS="V" VARNUM="13">
+   <TIE_VAR CIRCUIT_SCOPE_ID="70" Data_Path="V2@emd_DirectCurrentMachineSepEx" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EMDSEDC01" TITLE="potential at port 2" UNITS="V" VARNUM="13" VAR_DIM="1"/>
+  </VAR>
+  <VAR CIRCUIT_SCOPE_ID="21" Data_Path="V1@potential_reference_1" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="2" Submodel_Name="EBZV01" TITLE="zero volt voltage" UNITS="V" VARNUM="14" VAR_HASSTART_VALUE="1">
+   <TIE_VAR CIRCUIT_SCOPE_ID="37" Data_Path="V1@3_ports_electrical_node_1" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="2" Submodel_Name="EB3N01" TITLE="potential at port 1" UNITS="V" VARNUM="14" VAR_DIM="1"/>
+  </VAR>
+  <VAR CIRCUIT_SCOPE_ID="36" Data_Path="I1@3_ports_electrical_node_1" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="2" Submodel_Name="EB3N01" TITLE="current at port 1" UNITS="A" VARNUM="15"/>
+  <VAR CIRCUIT_SCOPE_ID="75" Data_Path="I5@emd_DirectCurrentMachineSepEx" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EMDSEDC01" TITLE="current at port 5" UNITS="A" VARNUM="16">
+   <TIE_VAR CIRCUIT_SCOPE_ID="39" Data_Path="I2@3_ports_electrical_node_1" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="2" Submodel_Name="EB3N01" TITLE="current at port 2" UNITS="A" VARNUM="16" VAR_DIM="1"/>
+  </VAR>
+  <VAR CIRCUIT_SCOPE_ID="38" Data_Path="V2@3_ports_electrical_node_1" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="2" Submodel_Name="EB3N01" TITLE="duplicate of potential at port 1" UNITS="V" VARNUM="17">
+   <TIE_VAR CIRCUIT_SCOPE_ID="76" Data_Path="V5@emd_DirectCurrentMachineSepEx" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EMDSEDC01" TITLE="potential at port 5" UNITS="V" VARNUM="17" VAR_DIM="1"/>
+  </VAR>
+  <VAR CIRCUIT_SCOPE_ID="31" Data_Path="I1@controlled_voltagesource_1" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="2" Submodel_Name="EBVS01" TITLE="duplicate of current at port 2" UNITS="A" VARNUM="18">
+   <TIE_VAR CIRCUIT_SCOPE_ID="41" Data_Path="I3@3_ports_electrical_node_1" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="2" Submodel_Name="EB3N01" TITLE="current at port 3" UNITS="A" VARNUM="18" VAR_DIM="1"/>
+  </VAR>
+  <VAR CIRCUIT_SCOPE_ID="40" Data_Path="V3@3_ports_electrical_node_1" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="2" Submodel_Name="EB3N01" TITLE="duplicate of potential at port 1" UNITS="V" VARNUM="19">
+   <TIE_VAR CIRCUIT_SCOPE_ID="32" Data_Path="V1@controlled_voltagesource_1" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="2" Submodel_Name="EBVS01" TITLE="potential at port 1" UNITS="V" VARNUM="19" VAR_DIM="1"/>
+  </VAR>
+  <VAR CIRCUIT_SCOPE_ID="77" Data_Path="dh@emd_DirectCurrentMachineSepEx" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EMDSEDC01" TITLE="heat flow rate at port 6" UNITS="W" VARNUM="20"/>
+  <VAR CIRCUIT_SCOPE_ID="9" Data_Path="t1@th_temperature_source" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="THTS1" TITLE="temperature at port 1" UNITS="degC" VARNUM="21" VAR_HASSTART_VALUE="1">
+   <TIE_VAR CIRCUIT_SCOPE_ID="78" Data_Path="Temp@emd_DirectCurrentMachineSepEx" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EMDSEDC01" TITLE="temperature at port 6" UNITS="degC" VARNUM="21" VAR_DIM="1"/>
+  </VAR>
+  <VAR CIRCUIT_SCOPE_ID="97" Data_Path="wdup@rotaryload2ports" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="MECRL0" TITLE="sign reversed duplicate of shaft speed at port 2" UNITS="rev/min" VARNUM="22">
+   <TIE_VAR CIRCUIT_SCOPE_ID="72" Data_Path="wrot@emd_DirectCurrentMachineSepEx" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EMDSEDC01" TITLE="rotor speed at port 3" UNITS="rev/min" VARNUM="22" VAR_DIM="1"/>
+  </VAR>
+  <VAR CIRCUIT_SCOPE_ID="71" Data_Path="torqrot@emd_DirectCurrentMachineSepEx" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EMDSEDC01" TITLE="torque at port 3" UNITS="Nm" VARNUM="23">
+   <TIE_VAR CIRCUIT_SCOPE_ID="98" Data_Path="torq1@rotaryload2ports" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="MECRL0" TITLE="torque at port 1" UNITS="Nm" VARNUM="23" VAR_DIM="1"/>
+  </VAR>
+  <VAR CIRCUIT_SCOPE_ID="33" Data_Path="V2@controlled_voltagesource_1" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="2" Submodel_Name="EBVS01" TITLE="potential at port 2" UNITS="V" VARNUM="24">
+   <TIE_VAR CIRCUIT_SCOPE_ID="74" Data_Path="V4@emd_DirectCurrentMachineSepEx" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EMDSEDC01" TITLE="potential at port 4" UNITS="V" VARNUM="24" VAR_DIM="1"/>
+  </VAR>
+  <VAR CIRCUIT_SCOPE_ID="73" Data_Path="I4@emd_DirectCurrentMachineSepEx" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EMDSEDC01" TITLE="current at port 4" UNITS="A" VARNUM="25">
+   <TIE_VAR CIRCUIT_SCOPE_ID="34" Data_Path="I2@controlled_voltagesource_1" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="2" Submodel_Name="EBVS01" TITLE="current at port 2" UNITS="A" VARNUM="25" VAR_DIM="1"/>
+  </VAR>
+  <VAR CIRCUIT_SCOPE_ID="145" Data_Path="wzero@zeroomegasource" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="W000" TITLE="angular speed (always zero)" UNITS="rev/min" VARNUM="26" VAR_HASSTART_VALUE="1">
+   <TIE_VAR CIRCUIT_SCOPE_ID="80" Data_Path="wstat@emd_DirectCurrentMachineSepEx" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EMDSEDC01" TITLE="stator speed at port 7" UNITS="rev/min" VARNUM="26" VAR_DIM="1"/>
+  </VAR>
+  <VAR CIRCUIT_SCOPE_ID="146" Data_Path="theta@zeroomegasource" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="W000" TITLE="fixed angle" UNITS="degree" VARNUM="27" VAR_HASSTART_VALUE="1"/>
+  <VAR CIRCUIT_SCOPE_ID="79" Data_Path="torqstat@emd_DirectCurrentMachineSepEx" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EMDSEDC01" TITLE="duplicate of torque at port 3" UNITS="Nm" VARNUM="28"/>
+  <VAR CIRCUIT_SCOPE_ID="51" Data_Path="Ua@emd_DirectCurrentMachineSepEx" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EMDSEDC01" TITLE="armature winding input voltage" UNITS="V" VARNUM="29"/>
+  <VAR CIRCUIT_SCOPE_ID="52" Data_Path="Ia@emd_DirectCurrentMachineSepEx" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EMDSEDC01" TITLE="armature winding input current" UNITS="A" VARNUM="30" VAR_HASSTART_VALUE="1"/>
+  <VAR CIRCUIT_SCOPE_ID="53" Data_Path="Ufl@emd_DirectCurrentMachineSepEx" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EMDSEDC01" TITLE="field winding input voltage" UNITS="V" VARNUM="31"/>
+  <VAR CIRCUIT_SCOPE_ID="54" Data_Path="Ifl@emd_DirectCurrentMachineSepEx" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EMDSEDC01" TITLE="field winding input current" UNITS="A" VARNUM="32" VAR_HASSTART_VALUE="1"/>
+  <VAR CIRCUIT_SCOPE_ID="55" Data_Path="wdif@emd_DirectCurrentMachineSepEx" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EMDSEDC01" TITLE="rotor relative speed" UNITS="rev/min" VARNUM="33"/>
+  <VAR CIRCUIT_SCOPE_ID="56" Data_Path="Tem@emd_DirectCurrentMachineSepEx" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EMDSEDC01" TITLE="electromagnetic torque" UNITS="Nm" VARNUM="34"/>
+  <VAR CIRCUIT_SCOPE_ID="57" Data_Path="bemf@emd_DirectCurrentMachineSepEx" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EMDSEDC01" TITLE="electromotive force" UNITS="V" VARNUM="35"/>
+  <VAR CIRCUIT_SCOPE_ID="58" Data_Path="Ra@emd_DirectCurrentMachineSepEx" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EMDSEDC01" TITLE="armature winding resistance" UNITS="Ohm" VARNUM="36"/>
+  <VAR CIRCUIT_SCOPE_ID="59" Data_Path="Rf@emd_DirectCurrentMachineSepEx" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EMDSEDC01" TITLE="field winding resistance" UNITS="Ohm" VARNUM="37"/>
+  <VAR CIRCUIT_SCOPE_ID="60" Data_Path="Kt@emd_DirectCurrentMachineSepEx" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="EMDSEDC01" TITLE="electromotive force and torque coefficient" UNITS="V*s/rad" VARNUM="38"/>
+  <VAR CIRCUIT_SCOPE_ID="62" HIDDEN="1" SAVE_VALUE="0"/>
+  <VAR CIRCUIT_SCOPE_ID="65" HIDDEN="1" SAVE_VALUE="0"/>
+  <VAR CIRCUIT_SCOPE_ID="7" Data_Path="out@constant_1" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="2" Submodel_Name="CONS00" TITLE="output" UNITS="null" VARNUM="41">
+   <TIE_VAR CIRCUIT_SCOPE_ID="18" Data_Path="input@torquecon" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="TORQC" TITLE="signal input" UNITS="null" VARNUM="41" VAR_DIM="1"/>
+  </VAR>
+  <VAR CIRCUIT_SCOPE_ID="99" Data_Path="w@rotaryload2ports" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="MECRL0" TITLE="shaft speed at port 2" UNITS="rev/min" VARNUM="42" VAR_HASSTART_VALUE="1"/>
+  <VAR CIRCUIT_SCOPE_ID="19" Data_Path="torque@torquecon" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="TORQC" TITLE="torque output" UNITS="Nm" VARNUM="43">
+   <TIE_VAR CIRCUIT_SCOPE_ID="100" Data_Path="torq2@rotaryload2ports" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="MECRL0" TITLE="torque at port 2" UNITS="Nm" VARNUM="43" VAR_DIM="1"/>
+  </VAR>
+  <VAR CIRCUIT_SCOPE_ID="29" Data_Path="U@controlled_voltagesource_1" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="2" Submodel_Name="EBVS01" TITLE="output voltage" UNITS="V" VARNUM="44"/>
+  <VAR CIRCUIT_SCOPE_ID="30" Data_Path="I@controlled_voltagesource_1" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="2" Submodel_Name="EBVS01" TITLE="output current" UNITS="A" VARNUM="45"/>
+  <VAR CIRCUIT_SCOPE_ID="6" Data_Path="k0GEN@constant_1" IS_DELTA="0" IS_LINKED_VARIABLE="1" SAVE_VALUE="1" Submodel_Instance="2" Submodel_Name="CONS00" TITLE="constant value - Linked variable" UNITS="null" VARNUM="46" VAR_HASSTART_VALUE="1"/>
+  <VAR CIRCUIT_SCOPE_ID="89" Data_Path="accel@rotaryload2ports" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="MECRL0" TITLE="rotary acceleration" UNITS="rad/s/s" VARNUM="47"/>
+  <VAR CIRCUIT_SCOPE_ID="90" Data_Path="Tvisc@rotaryload2ports" IS_DELTA="0" IS_LINKED_VARIABLE="0" SAVE_VALUE="1" Submodel_Instance="1" Submodel_Name="MECRL0" TITLE="viscous friction torque" UNITS="Nm" VARNUM="48"/>
+  <VAR CIRCUIT_SCOPE_ID="92" HIDDEN="1" SAVE_VALUE="0"/>
+  <VAR CIRCUIT_SCOPE_ID="95" HIDDEN="1" SAVE_VALUE="0"/>
+ </VARS_LIST>
+</VL>

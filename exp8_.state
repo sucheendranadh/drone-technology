@@ -1,0 +1,3 @@
+EMDSEDC01 instance 1 armature winding input current [A] Data_Path=Ia@emd_DirectCurrentMachineSepEx
+EMDSEDC01 instance 1 field winding input current [A] Data_Path=Ifl@emd_DirectCurrentMachineSepEx
+MECRL0 instance 1 shaft speed at port 2 [rev/min] Data_Path=w@rotaryload2ports

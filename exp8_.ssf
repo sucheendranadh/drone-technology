@@ -1,0 +1,50 @@
+1 CONS00 instance 1 output Param_Id=3 Data_Path=out@constant
+1 CONS00 instance 1 constant value - Linked variable Param_Id=2 Is_Linked_Variable=1 Data_Path=k0GEN@constant
+1 EB3N01 instance 1 duplicate of potential at port 1 [V] Param_Id=114 Data_Path=V3@3_ports_electrical_node
+1 EBVS01 instance 1 duplicate of current at port 2 [A] Param_Id=105 Data_Path=I1@controlled_voltagesource
+1 EMDSEDC01 instance 1 current at port 1 [A] Param_Id=67 Data_Path=I1@emd_DirectCurrentMachineSepEx
+1 EBVS01 instance 1 potential at port 2 [V] Param_Id=107 Data_Path=V2@controlled_voltagesource
+1 UD00 instance 1 user defined duty cycle output Param_Id=143 Data_Path=output@piecewiselinear
+1 EBVS01 instance 1 output voltage [V] Param_Id=103 Data_Path=U@controlled_voltagesource
+1 EBVS01 instance 1 output current [A] Param_Id=104 Data_Path=I@controlled_voltagesource
+1 EBZV01 instance 1 zero volt voltage [V] Param_Id=20 Data_Path=V1@potential_reference
+1 EB3N01 instance 1 current at port 1 [A] Param_Id=110 Data_Path=I1@3_ports_electrical_node
+1 HIDDEN Param_Id=69
+1 EB3N01 instance 1 duplicate of potential at port 1 [V] Param_Id=112 Data_Path=V2@3_ports_electrical_node
+1 EBZV01 instance 2 zero volt voltage [V] Param_Id=21 Data_Path=V1@potential_reference_1
+1 EB3N01 instance 2 current at port 1 [A] Param_Id=36 Data_Path=I1@3_ports_electrical_node_1
+1 EMDSEDC01 instance 1 current at port 5 [A] Param_Id=75 Data_Path=I5@emd_DirectCurrentMachineSepEx
+1 EB3N01 instance 2 duplicate of potential at port 1 [V] Param_Id=38 Data_Path=V2@3_ports_electrical_node_1
+1 EBVS01 instance 2 duplicate of current at port 2 [A] Param_Id=31 Data_Path=I1@controlled_voltagesource_1
+1 EB3N01 instance 2 duplicate of potential at port 1 [V] Param_Id=40 Data_Path=V3@3_ports_electrical_node_1
+1 EMDSEDC01 instance 1 heat flow rate at port 6 [W] Param_Id=77 Data_Path=dh@emd_DirectCurrentMachineSepEx
+1 THTS1 instance 1 temperature at port 1 [degC] Param_Id=9 Data_Path=t1@th_temperature_source
+1 MECRL0 instance 1 sign reversed duplicate of shaft speed at port 2 [rev/min] Param_Id=97 Data_Path=wdup@rotaryload2ports
+1 EMDSEDC01 instance 1 torque at port 3 [Nm] Param_Id=71 Data_Path=torqrot@emd_DirectCurrentMachineSepEx
+1 EBVS01 instance 2 potential at port 2 [V] Param_Id=33 Data_Path=V2@controlled_voltagesource_1
+1 EMDSEDC01 instance 1 current at port 4 [A] Param_Id=73 Data_Path=I4@emd_DirectCurrentMachineSepEx
+1 W000 instance 1 angular speed (always zero) [rev/min] Param_Id=145 Data_Path=wzero@zeroomegasource
+1 W000 instance 1 fixed angle [degree] Param_Id=146 Data_Path=theta@zeroomegasource
+1 EMDSEDC01 instance 1 duplicate of torque at port 3 [Nm] Param_Id=79 Data_Path=torqstat@emd_DirectCurrentMachineSepEx
+1 EMDSEDC01 instance 1 armature winding input voltage [V] Param_Id=51 Data_Path=Ua@emd_DirectCurrentMachineSepEx
+1 EMDSEDC01 instance 1 armature winding input current [A] Param_Id=52 Data_Path=Ia@emd_DirectCurrentMachineSepEx
+1 EMDSEDC01 instance 1 field winding input voltage [V] Param_Id=53 Data_Path=Ufl@emd_DirectCurrentMachineSepEx
+1 EMDSEDC01 instance 1 field winding input current [A] Param_Id=54 Data_Path=Ifl@emd_DirectCurrentMachineSepEx
+1 EMDSEDC01 instance 1 rotor relative speed [rev/min] Param_Id=55 Data_Path=wdif@emd_DirectCurrentMachineSepEx
+1 EMDSEDC01 instance 1 electromagnetic torque [Nm] Param_Id=56 Data_Path=Tem@emd_DirectCurrentMachineSepEx
+1 EMDSEDC01 instance 1 electromotive force [V] Param_Id=57 Data_Path=bemf@emd_DirectCurrentMachineSepEx
+1 EMDSEDC01 instance 1 armature winding resistance [Ohm] Param_Id=58 Data_Path=Ra@emd_DirectCurrentMachineSepEx
+1 EMDSEDC01 instance 1 field winding resistance [Ohm] Param_Id=59 Data_Path=Rf@emd_DirectCurrentMachineSepEx
+1 EMDSEDC01 instance 1 electromotive force and torque coefficient [V*s/rad] Param_Id=60 Data_Path=Kt@emd_DirectCurrentMachineSepEx
+0 HIDDEN Param_Id=62
+0 HIDDEN Param_Id=65
+1 CONS00 instance 2 output Param_Id=7 Data_Path=out@constant_1
+1 MECRL0 instance 1 shaft speed at port 2 [rev/min] Param_Id=99 Data_Path=w@rotaryload2ports
+1 TORQC instance 1 torque output [Nm] Param_Id=19 Data_Path=torque@torquecon
+1 EBVS01 instance 2 output voltage [V] Param_Id=29 Data_Path=U@controlled_voltagesource_1
+1 EBVS01 instance 2 output current [A] Param_Id=30 Data_Path=I@controlled_voltagesource_1
+1 CONS00 instance 2 constant value - Linked variable Param_Id=6 Is_Linked_Variable=1 Data_Path=k0GEN@constant_1
+1 MECRL0 instance 1 rotary acceleration [rad/s/s] Param_Id=89 Data_Path=accel@rotaryload2ports
+1 MECRL0 instance 1 viscous friction torque [Nm] Param_Id=90 Data_Path=Tvisc@rotaryload2ports
+0 HIDDEN Param_Id=92
+0 HIDDEN Param_Id=95
